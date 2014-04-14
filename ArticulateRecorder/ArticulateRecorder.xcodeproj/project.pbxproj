@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DADF9C5818F602660064EF53 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADF9C5718F602660064EF53 /* Cocoa.framework */; };
+		DADF9C6218F602660064EF53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DADF9C6018F602660064EF53 /* InfoPlist.strings */; };
+		DADF9C6418F602660064EF53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DADF9C6318F602660064EF53 /* main.m */; };
+		DADF9C6818F602660064EF53 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DADF9C6618F602660064EF53 /* Credits.rtf */; };
+		DADF9C6B18F602660064EF53 /* AGIMovieDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = DADF9C6A18F602660064EF53 /* AGIMovieDocument.m */; };
+		DADF9C6E18F602660064EF53 /* AGIMovieDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = DADF9C6C18F602660064EF53 /* AGIMovieDocument.xib */; };
+		DADF9C7118F602660064EF53 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DADF9C6F18F602660064EF53 /* MainMenu.xib */; };
+		DADF9C7318F602660064EF53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADF9C7218F602660064EF53 /* Images.xcassets */; };
+		DADF9C7A18F602660064EF53 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADF9C7918F602660064EF53 /* XCTest.framework */; };
+		DADF9C7B18F602660064EF53 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADF9C5718F602660064EF53 /* Cocoa.framework */; };
+		DADF9C8318F602660064EF53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DADF9C8118F602660064EF53 /* InfoPlist.strings */; };
+		DADF9C8518F602660064EF53 /* ArticulateRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DADF9C8418F602660064EF53 /* ArticulateRecorderTests.m */; };
+		DADF9C8F18F6027F0064EF53 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADF9C8E18F6027F0064EF53 /* AVFoundation.framework */; };
+		DADF9C9118F602860064EF53 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADF9C9018F602860064EF53 /* AudioToolbox.framework */; };
+		DADF9C9318F6028F0064EF53 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADF9C9218F6028F0064EF53 /* CoreMedia.framework */; };
+		DADF9C9618F6053F0064EF53 /* AGIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DADF9C9518F6053F0064EF53 /* AGIAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DADF9C7C18F602660064EF53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADF9C4C18F602660064EF53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADF9C5318F602660064EF53;
+			remoteInfo = ArticulateRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DADF9C5418F602660064EF53 /* recordr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recordr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADF9C5718F602660064EF53 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DADF9C5A18F602660064EF53 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DADF9C5B18F602660064EF53 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DADF9C5C18F602660064EF53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DADF9C5F18F602660064EF53 /* ArticulateRecorder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArticulateRecorder-Info.plist"; sourceTree = "<group>"; };
+		DADF9C6118F602660064EF53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DADF9C6318F602660064EF53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DADF9C6518F602660064EF53 /* ArticulateRecorder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArticulateRecorder-Prefix.pch"; sourceTree = "<group>"; };
+		DADF9C6718F602660064EF53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DADF9C6918F602660064EF53 /* AGIMovieDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGIMovieDocument.h; sourceTree = "<group>"; };
+		DADF9C6A18F602660064EF53 /* AGIMovieDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGIMovieDocument.m; sourceTree = "<group>"; };
+		DADF9C6D18F602660064EF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AGIMovieDocument.xib; sourceTree = "<group>"; };
+		DADF9C7018F602660064EF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DADF9C7218F602660064EF53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DADF9C7818F602660064EF53 /* ArticulateRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArticulateRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADF9C7918F602660064EF53 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DADF9C8018F602660064EF53 /* ArticulateRecorderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArticulateRecorderTests-Info.plist"; sourceTree = "<group>"; };
+		DADF9C8218F602660064EF53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DADF9C8418F602660064EF53 /* ArticulateRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticulateRecorderTests.m; sourceTree = "<group>"; };
+		DADF9C8E18F6027F0064EF53 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DADF9C9018F602860064EF53 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DADF9C9218F6028F0064EF53 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DADF9C9418F6053F0064EF53 /* AGIAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGIAppDelegate.h; sourceTree = "<group>"; };
+		DADF9C9518F6053F0064EF53 /* AGIAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGIAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADF9C5118F602660064EF53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADF9C9318F6028F0064EF53 /* CoreMedia.framework in Frameworks */,
+				DADF9C9118F602860064EF53 /* AudioToolbox.framework in Frameworks */,
+				DADF9C8F18F6027F0064EF53 /* AVFoundation.framework in Frameworks */,
+				DADF9C5818F602660064EF53 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADF9C7518F602660064EF53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADF9C7B18F602660064EF53 /* Cocoa.framework in Frameworks */,
+				DADF9C7A18F602660064EF53 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DADF9C4B18F602660064EF53 = {
+			isa = PBXGroup;
+			children = (
+				DADF9C5D18F602660064EF53 /* ArticulateRecorder */,
+				DADF9C7E18F602660064EF53 /* ArticulateRecorderTests */,
+				DADF9C5618F602660064EF53 /* Frameworks */,
+				DADF9C5518F602660064EF53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DADF9C5518F602660064EF53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADF9C5418F602660064EF53 /* recordr.app */,
+				DADF9C7818F602660064EF53 /* ArticulateRecorderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADF9C5618F602660064EF53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DADF9C9218F6028F0064EF53 /* CoreMedia.framework */,
+				DADF9C9018F602860064EF53 /* AudioToolbox.framework */,
+				DADF9C8E18F6027F0064EF53 /* AVFoundation.framework */,
+				DADF9C5718F602660064EF53 /* Cocoa.framework */,
+				DADF9C7918F602660064EF53 /* XCTest.framework */,
+				DADF9C5918F602660064EF53 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DADF9C5918F602660064EF53 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DADF9C5A18F602660064EF53 /* AppKit.framework */,
+				DADF9C5B18F602660064EF53 /* CoreData.framework */,
+				DADF9C5C18F602660064EF53 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DADF9C5D18F602660064EF53 /* ArticulateRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				DADF9C9418F6053F0064EF53 /* AGIAppDelegate.h */,
+				DADF9C9518F6053F0064EF53 /* AGIAppDelegate.m */,
+				DADF9C6918F602660064EF53 /* AGIMovieDocument.h */,
+				DADF9C6A18F602660064EF53 /* AGIMovieDocument.m */,
+				DADF9C6C18F602660064EF53 /* AGIMovieDocument.xib */,
+				DADF9C7218F602660064EF53 /* Images.xcassets */,
+				DADF9C6F18F602660064EF53 /* MainMenu.xib */,
+				DADF9C5E18F602660064EF53 /* Supporting Files */,
+			);
+			path = ArticulateRecorder;
+			sourceTree = "<group>";
+		};
+		DADF9C5E18F602660064EF53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DADF9C5F18F602660064EF53 /* ArticulateRecorder-Info.plist */,
+				DADF9C6018F602660064EF53 /* InfoPlist.strings */,
+				DADF9C6318F602660064EF53 /* main.m */,
+				DADF9C6518F602660064EF53 /* ArticulateRecorder-Prefix.pch */,
+				DADF9C6618F602660064EF53 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DADF9C7E18F602660064EF53 /* ArticulateRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DADF9C8418F602660064EF53 /* ArticulateRecorderTests.m */,
+				DADF9C7F18F602660064EF53 /* Supporting Files */,
+			);
+			path = ArticulateRecorderTests;
+			sourceTree = "<group>";
+		};
+		DADF9C7F18F602660064EF53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DADF9C8018F602660064EF53 /* ArticulateRecorderTests-Info.plist */,
+				DADF9C8118F602660064EF53 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADF9C5318F602660064EF53 /* ArticulateRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADF9C8818F602660064EF53 /* Build configuration list for PBXNativeTarget "ArticulateRecorder" */;
+			buildPhases = (
+				DADF9C5018F602660064EF53 /* Sources */,
+				DADF9C5118F602660064EF53 /* Frameworks */,
+				DADF9C5218F602660064EF53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArticulateRecorder;
+			productName = ArticulateRecorder;
+			productReference = DADF9C5418F602660064EF53 /* recordr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DADF9C7718F602660064EF53 /* ArticulateRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADF9C8B18F602660064EF53 /* Build configuration list for PBXNativeTarget "ArticulateRecorderTests" */;
+			buildPhases = (
+				DADF9C7418F602660064EF53 /* Sources */,
+				DADF9C7518F602660064EF53 /* Frameworks */,
+				DADF9C7618F602660064EF53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADF9C7D18F602660064EF53 /* PBXTargetDependency */,
+			);
+			name = ArticulateRecorderTests;
+			productName = ArticulateRecorderTests;
+			productReference = DADF9C7818F602660064EF53 /* ArticulateRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADF9C4C18F602660064EF53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AGI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Articulate Global, Inc.";
+				TargetAttributes = {
+					DADF9C7718F602660064EF53 = {
+						TestTargetID = DADF9C5318F602660064EF53;
+					};
+				};
+			};
+			buildConfigurationList = DADF9C4F18F602660064EF53 /* Build configuration list for PBXProject "ArticulateRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DADF9C4B18F602660064EF53;
+			productRefGroup = DADF9C5518F602660064EF53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADF9C5318F602660064EF53 /* ArticulateRecorder */,
+				DADF9C7718F602660064EF53 /* ArticulateRecorderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADF9C5218F602660064EF53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADF9C6E18F602660064EF53 /* AGIMovieDocument.xib in Resources */,
+				DADF9C7318F602660064EF53 /* Images.xcassets in Resources */,
+				DADF9C6218F602660064EF53 /* InfoPlist.strings in Resources */,
+				DADF9C6818F602660064EF53 /* Credits.rtf in Resources */,
+				DADF9C7118F602660064EF53 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADF9C7618F602660064EF53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADF9C8318F602660064EF53 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADF9C5018F602660064EF53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADF9C6B18F602660064EF53 /* AGIMovieDocument.m in Sources */,
+				DADF9C9618F6053F0064EF53 /* AGIAppDelegate.m in Sources */,
+				DADF9C6418F602660064EF53 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADF9C7418F602660064EF53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADF9C8518F602660064EF53 /* ArticulateRecorderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DADF9C7D18F602660064EF53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADF9C5318F602660064EF53 /* ArticulateRecorder */;
+			targetProxy = DADF9C7C18F602660064EF53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DADF9C6018F602660064EF53 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADF9C6118F602660064EF53 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DADF9C6618F602660064EF53 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADF9C6718F602660064EF53 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DADF9C6C18F602660064EF53 /* AGIMovieDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADF9C6D18F602660064EF53 /* Base */,
+			);
+			name = AGIMovieDocument.xib;
+			sourceTree = "<group>";
+		};
+		DADF9C6F18F602660064EF53 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADF9C7018F602660064EF53 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DADF9C8118F602660064EF53 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADF9C8218F602660064EF53 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DADF9C8618F602660064EF53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DADF9C8718F602660064EF53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DADF9C8918F602660064EF53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArticulateRecorder/ArticulateRecorder-Prefix.pch";
+				INFOPLIST_FILE = "ArticulateRecorder/ArticulateRecorder-Info.plist";
+				PRODUCT_NAME = recordr;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DADF9C8A18F602660064EF53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArticulateRecorder/ArticulateRecorder-Prefix.pch";
+				INFOPLIST_FILE = "ArticulateRecorder/ArticulateRecorder-Info.plist";
+				PRODUCT_NAME = recordr;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DADF9C8C18F602660064EF53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ArticulateRecorder.app/Contents/MacOS/ArticulateRecorder";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArticulateRecorder/ArticulateRecorder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ArticulateRecorderTests/ArticulateRecorderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DADF9C8D18F602660064EF53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ArticulateRecorder.app/Contents/MacOS/ArticulateRecorder";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArticulateRecorder/ArticulateRecorder-Prefix.pch";
+				INFOPLIST_FILE = "ArticulateRecorderTests/ArticulateRecorderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADF9C4F18F602660064EF53 /* Build configuration list for PBXProject "ArticulateRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADF9C8618F602660064EF53 /* Debug */,
+				DADF9C8718F602660064EF53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADF9C8818F602660064EF53 /* Build configuration list for PBXNativeTarget "ArticulateRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADF9C8918F602660064EF53 /* Debug */,
+				DADF9C8A18F602660064EF53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADF9C8B18F602660064EF53 /* Build configuration list for PBXNativeTarget "ArticulateRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADF9C8C18F602660064EF53 /* Debug */,
+				DADF9C8D18F602660064EF53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DADF9C4C18F602660064EF53 /* Project object */;
+}
